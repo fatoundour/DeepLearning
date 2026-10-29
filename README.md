@@ -1,4 +1,4 @@
-# Deep Learning génératif — Comparaison des WGAN et SGM
+# Deep Learning génératif - Comparaison des WGAN et SGM
 
 **Projet académique · Génération d’images · PyTorch · Google Colab (GPU)**
 
@@ -43,7 +43,7 @@ Les deux méthodes apprennent **les formes générales** des objets, mais reprod
 
 **Exemples issus des notebooks d’origine :**
 
-| WGAN — Fashion-MNIST | SGM — Fashion-MNIST |
+| WGAN - Fashion-MNIST | SGM - Fashion-MNIST |
 | --- | --- |
 | ![Résultats WGAN sur Fashion-MNIST](images/wgan_fashion_mnist.png) | ![Résultats SGM sur Fashion-MNIST](images/sgm_fashion_mnist.png) |
 
@@ -51,7 +51,7 @@ Les deux méthodes apprennent **les formes générales** des objets, mais reprod
 
 **Aucun des deux modèles ne reconstruit convenablement les cercles** dans les configurations testées. Les générations WGAN restent bruitées ; les résultats SGM ne restituent pas non plus la structure circulaire attendue.
 
-| WGAN — Cercles | SGM — Cercles |
+| WGAN - Cercles | SGM - Cercles |
 | --- | --- |
 | ![Résultats WGAN sur les cercles](images/wgan_cercles.png) | ![Résultats SGM sur les cercles](images/sgm_cercles.png) |
 
